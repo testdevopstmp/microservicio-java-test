@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - feature-ms-testdevops-mensaje
   pull_request:
     branches:
       - main
+      - feature-ms-testdevops-mensaje
 
 jobs:
   build:
